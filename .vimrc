@@ -82,4 +82,6 @@ imap jJ <esc>:w<cr>
 imap JJ <esc>:w<cr>
 imap hh <esc>:wq<cr>
 
+nmap <C-N> :set number!<bar>set number?<CR>
+
 set modifiable
