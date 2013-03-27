@@ -15,7 +15,7 @@ set showmatch " cause the cursor to very briefly jump to a brace/parenthese/brac
 set vb t_vb= " prevents vim from making annoying beeps when a command doesn't work. Instead it briefly flashes the screen
 set ruler " ensures that each window contains a status line that displays the current cursor position
 set incsearch " search for text as you enter it
-set virtualedit=all " allows the cursor to roam anywhere it wants instead of just the defined text
+" set virtualedit=all " allows the cursor to roam anywhere it wants instead of just the defined text
 set history=100 " how many lines of history to remember
 set confirm " ask what to do about unread/read-only files
 set linespace=0 " number of pixel lines inserted between characters
@@ -80,7 +80,7 @@ imap jj <esc>:w<cr>
 imap Jj <esc>:w<cr>
 imap jJ <esc>:w<cr>
 imap JJ <esc>:w<cr>
-imap hh <esc>:wq<cr>
+" imap hh <esc>:wq<cr>
 
 nmap <C-N> :set number!<bar>set number?<CR>
 
