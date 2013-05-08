@@ -7,19 +7,27 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 
-# Example aliases
+# CLI
+alias f="fg"
+alias j="jobs"
+alias cl="clear"
+alias l="ll"
+alias zsh="vim ~/.zshrc"
+
+# Git
 alias gs="git status"
 alias gd="git diff"
 alias gpog="git push origin gh-pages"
 alias gmgp="git merge gh-pages"
 alias gcgp="git checkout gh-pages"
-alias f="fg"
-alias j="jobs"
-alias cl="clear"
-alias l="ll"
+
+# Tig
 alias t="tig"
 alias ts="tig status"
-# alias zshconfig="mate ~/.zshrc"
+
+# Vim
+alias v='vim'
+
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
